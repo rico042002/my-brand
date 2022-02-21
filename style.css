@@ -114,9 +114,9 @@
 }
 
 .services .container {
-    width: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 60px;
@@ -125,9 +125,30 @@
 .services .container .serviceBx {
     position: relative;
     background: #fff;
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.services .container .serviceBx img {
+    max-width: 100px;
+}
+
+.services .container .serviceBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.technology {
+    background: #3f8ffc;
+    width: 100%;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
